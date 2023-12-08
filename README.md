@@ -1,7 +1,7 @@
 # Bronnen 
 
-
-
+* [Voorbeeld design ](https://gradientbuttons.colorion.co/)
+* [youtube video voorbeeld](https://www.youtube.com/watch?v=kwrgKJzsgGE)
 
 
 # create-svelte

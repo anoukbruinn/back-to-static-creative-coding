@@ -10,6 +10,7 @@
 
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 		h1 {
 			color: lightpink;
 			display: flex;
@@ -17,8 +18,8 @@
 			align-items: center;
 			margin-top: 25rem;
 			margin-bottom: auto;
-			font-family: creepster;
-			font-size: 9rem;
+			font-family: orbitron;
+			font-size: 6rem;
 
 			opacity: 0;
 			animation: lightson 0.5s ease 3 forwards;
@@ -115,7 +116,7 @@
 			-moz-transform: rotateY(180deg);
 			-ms-transform: rotateY(180deg);
 			-o-transform: rotateY(180deg);
-			transform: rotateY(180deg);
+			transform: rotateY(170deg);
 		}
 
 		#r3 {
@@ -215,25 +216,25 @@
 			document.getElementById('r1').getElementsByClassName('circle')[cmpt].style.margin = '0 0 0 0';
 			setTimeout(function () {
 				document.getElementById('r1').getElementsByClassName('circle')[cmpt].style.opacity = '0.5';
-			}, 500);
+			}, 200);
 			document.getElementById('r2').innerHTML =
 				document.getElementById('r2').innerHTML + '<div class="circle"></div>';
 			document.getElementById('r2').getElementsByClassName('circle')[cmpt].style.margin = '0 0 0 0';
 			setTimeout(function () {
 				document.getElementById('r2').getElementsByClassName('circle')[cmpt].style.opacity = '0.5';
-			}, 500);
+			}, 400);
 			document.getElementById('r3').innerHTML =
 				document.getElementById('r3').innerHTML + '<div class="circle"></div>';
 			document.getElementById('r3').getElementsByClassName('circle')[cmpt].style.margin = '0 0 0 0';
 			setTimeout(function () {
 				document.getElementById('r3').getElementsByClassName('circle')[cmpt].style.opacity = '0.5';
-			}, 500);
+			}, 600);
 			document.getElementById('r4').innerHTML =
 				document.getElementById('r4').innerHTML + '<div class="circle"></div>';
 			document.getElementById('r4').getElementsByClassName('circle')[cmpt].style.margin = '0 0 0 0';
 			setTimeout(function () {
 				document.getElementById('r4').getElementsByClassName('circle')[cmpt].style.opacity = '0.5';
-			}, 500);
+			}, 700);
 			cmpt++;
 		}
 		setTimeout(function () {
@@ -245,7 +246,7 @@
 				document.getElementById('r4').getElementsByClassName('circle')[cmpt].style.opacity = '0.5';
 				cmpt++;
 			}
-		}, 1000);
+		}, 900);
 		setInterval(function () {
 			linearMargin = false;
 			var cmpt = 0;
@@ -316,12 +317,12 @@
 				circle.style.borderRadius = value4_1 + 'px';
 				cmpt++;
 			}
-		}, 500);
+		}, 900);
 		setInterval(function () {
 			var value1 = Math.floor(Math.random() * 255 + 0);
 			var value2 = Math.floor(Math.random() * 255 + 0);
 			var value3 = Math.floor(Math.random() * 255 + 0);
 			document.body.style.background = 'rgb(' + value1 + ',' + value2 + ',' + value3 + ')';
-		}, 2000);
+		}, 1700);
 	</script>
 </body>

@@ -1,3 +1,9 @@
+
+<img width="1661" alt="Scherm­afbeelding 2024-01-27 om 11 23 45" src="https://github.com/anoukbruinn/back-to-static-creative-coding/assets/112856687/f8817917-030e-4c1a-bb2b-fc7b646ceb5c">
+<img width="1661" alt="Scherm­afbeelding 2024-01-27 om 11 22 23" src="https://github.com/anoukbruinn/back-to-static-creative-coding/assets/112856687/54c2e628-711e-411d-b22c-3531d23cfda9">
+
+<img width="1661" alt="Scherm­afbeelding 2024-01-27 om 11 22 48" src="https://github.com/anoukbruinn/back-to-static-creative-coding/assets/112856687/0196b4a9-70e3-4d66-adfd-853b67e99607">
+
 # Bronnen 
 
 * [Voorbeeld design ](https://gradientbuttons.colorion.co/)
